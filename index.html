@@ -2,42 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Assessment Home</title>
 </head>
 
 <body>
     <header>
-        <h1 class='title'>I am the Page Title</h1>
-        <img src="https://images.craftsnherbs.com/icons/beelogo.jpg" alt="Logo">
-    </header>
+        <div class="title">
+            <h1>I am the Page Title</h1>
+            <img src="https://images.thehive-services.com/assessmentImages/beelogo.jpg" alt="Logo">
+        </div>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./api.html">API</a>
+            <a href="./statusImage.html">Status Code</a>
+        </nav>
     <main>
-        <div>
-            <div>
+        <div class="outerbox">
+            <div class="box">
                 <h2>Section 1</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos blanditiis reiciendis molestias
                     consequuntur pariatur? Qui nam, consequatur optio nostrum minus illum distinctio dignissimos soluta
                     quibusdam, doloribus commodi ducimus officia. Tempora.</p>
                 <img src="https://unsplash.it/200/200" alt="Random Image">
             </div>
-            <div>
+            <div class="box">
                 <h2>Section 2</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos blanditiis reiciendis molestias
                     consequuntur pariatur? Qui nam, consequatur optio nostrum minus illum distinctio dignissimos soluta
                     quibusdam, doloribus commodi ducimus officia. Tempora.</p>
-                <img src="https://unsplash.it/200/200">
+                <img src="https://unsplash.it/200/200" alt="Random Image">
             </div>
-        <div>
-            <button onclick='changeImage(this)'>Turn on the light</button>
-            <img src="https://www.w3schools.com/js/pic_bulboff.gif" alt="LightBulb" id='light'>
+        </div>
+        <div class="outerbox">
+            <button>Turn on the light</button>
+            <img src="https://images.thehive-services.com/assessmentImages/pic_bulboff.gif" alt="LightBulb" id='light'>
         </div>
     </main>
     <footer>
         <h2>Thank you!</h2>
     </footer>
-    <script src="./scripts.js"></script>
+    <script src="./assets/js/scripts.js"></script>
 </body>
 
 </html>
